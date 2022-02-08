@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+   <!--<div align="center">
+      <h1>Aula 1</h1>
+      <table class="table_round">
+        <thead>
+          <tr>
+            <th><b>#ID</b></th>
+            <th><b>Nome</b></th>
+            <th><b>Data de Nascimento</b></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Guilherme</td>
+            <td>24/12/2001</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Colevas</td>
+            <td>22/09/1982</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>-->
+    <nav id="menu">
+      <h1>Aula 1</h1>
+	    <ul>
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="">Cadastro</a></li>
+	    </ul>
+    </nav>
+    <br />
+    <br />
+    <div align="center" class="divPai">
+      <form action="" method="get">
+	      <h1 id="title">Cadastro</h1>
+        <table>
+          <tr>
+            <td>
+              <input
+                type="number"
+                min="0"
+                step="1"
+                id="id"
+                name="id"
+                placeholder="#ID"
+                required
+                autofocus
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nome"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="date" id="dataNasc" name="dataNasc" required />
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <input type="submit" id="enviar" name="enviar" value="Enviar" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
